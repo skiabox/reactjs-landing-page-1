@@ -22,6 +22,7 @@ const MovieDetail = () => {
       stateMovie => stateMovie.url === url
     );
     setMovie(currentMovieArray[0]);
+    console.log(setMovies);
   }, [movies, url]);
   return (
     <>
